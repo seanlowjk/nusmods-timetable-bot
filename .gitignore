@@ -1,0 +1,8 @@
+# Node Modules 
+node_modules
+
+# Build Files
+dist 
+
+# Configuration File 
+config.json 
