@@ -51,7 +51,7 @@ export const THEME_COLOR = {
 
 export const CS_MOD_API_KEY = {
     CODE: "module_code", 
-    NAME: "moduel_name", 
+    NAME: "module_name", 
     CREDITS: "modular_credits", 
     SEMESTERS: "semesters", 
     SEMESTER_ONE: "1", 
