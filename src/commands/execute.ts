@@ -1,3 +1,4 @@
+import { fetchCSModule } from "./fetch-cs-module";
 import { fetchTimetable } from "./fetch-timetable";
 
 export function execute(message: any, args: string[] | undefined): any {
@@ -10,6 +11,9 @@ export function execute(message: any, args: string[] | undefined): any {
         case 'fetch': 
             fetchTimetable(message, args); 
             break; 
+        case 'check':
+            fetchCSModule(message, args);
+            break;
         default:
             break; 
     }
